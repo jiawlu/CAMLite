@@ -1,0 +1,22 @@
+SIMLite: Open A Project. --- Fri Sep 11 16:53:03 2020
+no physical path for agent 120 from node 0 to node 8
+no physical path for agent 121 from node 0 to node 8
+no physical path for agent 122 from node 0 to node 8
+no physical path for agent 123 from node 0 to node 8
+no physical path for agent 124 from node 0 to node 8
+no physical path for agent 125 from node 0 to node 8
+no physical path for agent 126 from node 0 to node 8
+no physical path for agent 127 from node 0 to node 8
+no physical path for agent 128 from node 0 to node 8
+no physical path for agent 129 from node 0 to node 8
+no physical path for agent 130 from node 0 to node 8
+no physical path for agent 131 from node 0 to node 8
+no physical path for agent 132 from node 0 to node 8
+no physical path for agent 133 from node 0 to node 8
+no physical path for agent 134 from node 0 to node 8
+no physical path for agent 135 from node 0 to node 8
+no physical path for agent 136 from node 0 to node 8
+no physical path for agent 137 from node 0 to node 8
+no physical path for agent 138 from node 0 to node 8
+no physical path for agent 139 from node 0 to node 8
+SIMLite: Simulation Program Closed. --- Fri Sep 11 16:53:15 2020

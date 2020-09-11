@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<demands>
+    <ODVolume from_origin_node_id="0" to_destination_node_id="3" number_of_trips="100" time_start="0" time_end="10" />
+    <ODVolume from_origin_node_id="0" to_destination_node_id="11" number_of_trips="20" time_start="0" time_end="10" />
+    <ODVolume from_origin_node_id="0" to_destination_node_id="8" number_of_trips="20" time_start="0" time_end="10" />
+    <ODVolume from_origin_node_id="4" to_destination_node_id="7" number_of_trips="120" time_start="0" time_end="10" />
+    <ODVolume from_origin_node_id="4" to_destination_node_id="15" number_of_trips="25" time_start="0" time_end="10" />
+    <ODVolume from_origin_node_id="4" to_destination_node_id="11" number_of_trips="25" time_start="0" time_end="10" />
+    <ODVolume from_origin_node_id="8" to_destination_node_id="11" number_of_trips="60" time_start="0" time_end="10" />
+    <ODVolume from_origin_node_id="8" to_destination_node_id="7" number_of_trips="20" time_start="0" time_end="10" />
+    <ODVolume from_origin_node_id="8" to_destination_node_id="3" number_of_trips="20" time_start="0" time_end="10" />
+    <ODVolume from_origin_node_id="12" to_destination_node_id="15" number_of_trips="65" time_start="0" time_end="10" />
+    <ODVolume from_origin_node_id="12" to_destination_node_id="3" number_of_trips="28" time_start="0" time_end="10" />
+    <ODVolume from_origin_node_id="12" to_destination_node_id="7" number_of_trips="26" time_start="0" time_end="10" />
+</demands>
