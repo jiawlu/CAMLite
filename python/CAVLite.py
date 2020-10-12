@@ -100,7 +100,7 @@ def load_args():
 
 def printProgress(current_iter, total_iters, width=30):
     percent = current_iter / total_iters
-    show_str = ('[%%-%ds]' % width) % (int(width * percent) * "#")  # 字符串拼接的嵌套使用
+    show_str = ('[%%-%ds]' % width) % (int(width * percent) * "#")
     print('\r%s %d%%' % (show_str, percent*100), end='')
 
 
@@ -870,6 +870,7 @@ def outputResults():
                     agent.micro_path_time_str,
                     '', '', '', '']
             writer.writerow(line)
+    print('Done')
 
 
 if "__main__" == __name__:
