@@ -273,7 +273,7 @@ class Simulation:
                             agent.m_Veh_LinkDepartureTime_in_simu_interval.append(t + outgoing_link_changing.free_flow_travel_time_in_simu_interval)
 
                         elif (cost_keeping < _MAX_TIME_INTERVAL) & (abs(cost_keeping - cost_changing) < 0.1):
-                            if random.random() < 0.09:
+                            if random.random() < 0.15:
                                 to_node_changing.available_sim_interval = _MAX_TIME_INTERVAL
                                 current_node.available_sim_interval = t + safe_headway_in_simu_interval
                                 agent.micro_path_node_seq_no_list.append(to_node_changing.node_seq_no)
