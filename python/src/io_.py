@@ -217,6 +217,7 @@ def outputResults(demands):
              'number_of_nodes', 'node_sequence', 'org_path_node_sequence',
              'time_sequence','time_decimal_sequence'])
         for agent in demands.agent_list:
+            if not agent.m_bGenereated: continue
             agent.outputDataGeneration()
             line = [agent.agent_id,
                     '', '', '', '', agent.micro_origin_node_id, agent.micro_destination_node_id,
