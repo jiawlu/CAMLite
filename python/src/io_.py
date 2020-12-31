@@ -25,19 +25,16 @@ def load_args():
 
     # --- Simulation settings ---
     parser.add_argument('--sim_step', default=0.1, type=float,
-                        help='Simulation step.')
+                        help='Simulation step. Default: 0.1s')
     parser.add_argument('--sim_start_time', default=0, type=float,
-                        help='Simulation start time in minutes.')
+                        help='Simulation start time in minutes. Default: 0min')
     parser.add_argument('--sim_end_time', default=60, type=float,
-                        help='Simulation end time in minutes.')
+                        help='Simulation end time in minutes. Default: 60min')
     parser.add_argument('--assignment_iters', default=10, type=int,
-                        help='Number of MSA assignment iterations.')
+                        help='Number of MSA assignment iterations. Default: 10')
     parser.add_argument('--headway', default=1.4, type=float,
-                        help='Minimum time headway between vehicles.')
+                        help='Minimum time headway between vehicles. Default: 1.4s')
 
-    # --- Outputs ---
-    parser.add_argument('--output', default='agent.csv', type=str,
-                        help='Filename of outputs.')
     args = vars(parser.parse_args())
 
     print(f'  cwd: {args["cwd"]}')
@@ -46,7 +43,6 @@ def load_args():
     print(f'  sim_end_time: {args["sim_end_time"]}')
     print(f'  assignment_iters: {args["assignment_iters"]}')
     print(f'  headway: {args["headway"]}')
-    print(f'  output: {args["output"]}')
 
     _working_directory = args["cwd"]
     return args
