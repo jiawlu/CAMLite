@@ -20,18 +20,9 @@ if __name__ == '__main__':
 
     net, demands, signal_manager = readInputData()
     initializeEvn(net, demands, signal_manager, args)
-
     trafficAssignment(net,demands,args)
-
-    simulator = Simulation()
-    simulator.setParameters(net, demands, signal_manager, args)
-    simulator.generateCostTree()
+    simulator = Simulation(net, demands, signal_manager, args)
     simulator.startSim()
 
     outputResults(demands)
-
-
-
-
-
 
