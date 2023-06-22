@@ -1,0 +1,5 @@
+controller_id,phase_id,movement_links,duration
+0,0,8;11,40
+0,1,10;12,30
+0,2,16;19,35
+0,3,14;18,25

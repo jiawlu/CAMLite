@@ -1,4 +1,0 @@
-demand_id,o_node_id,d_node_id,volume,time_start,time_end
-1,3101,3500,20,0,5
-2,3101,3200,30,0,5
-3,3101,3300,20,0,5
